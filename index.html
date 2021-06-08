@@ -4,36 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.typekit.net/jif8qrj.css">
   <link rel="stylesheet" href="style/stylereset.css">
   <link rel="stylesheet" href="style/stage.css">
   <title>Luc zoekt stage</title>
 </head>
 <body>
-  <header>
-  <h1>Luc Uppenkamp</h1>
-  <p class="subtitle">Op zoek naar een stage<p>
-  <nav>
-    <a href="">
-      <svg></svg>
-      <p class="small">Menu</p>
-    </a>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#strengths">Competenties</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#about">Over Mij</a></li>
-      <li><a href="#stage">Stage eisen</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+
+  <header id="head">
+    <div>
+      <h1>Luc Uppenkamp</h1>
+      <p class="subtitle">Op zoek naar een stage<p>
+    </div>
+    <nav>
+      <a href="">
+        <img src="" alt="">
+        <p>Menu</p>
+      </a>
+      <ul>
+        <li><a href="#head">Home</a></li>
+        <li><a href="#strengths">Competenties</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">Over Mij</a></li>
+        <li><a href="#stage">Stage eisen</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
     <article id="home">
-      <img src="" alt="">
+      <img src="" alt="" class="homePortrait">
       <a href="" class="smallBtn"></a>
       <p class="wide">
-        Hoi! Ik ben Luc, 22 jaar. Ik ben <strong>2e jaars student</strong> aan de opleiding Communication and Multimedia Design (<strong>CMD</strong>) aan de Haagse Hogeschool.
+        Hoi! Ik ben Luc, 22 jaar. Ik ben <strong>2e jaars student</strong> Communication and Multimedia Design (<strong>CMD</strong>) aan de Haagse Hogeschool.
         <br><br>
         Voor het begin van mijn 3e jaar ben ik op zoek naar een UX stage. Ik zoek de stage voor:
         <strong>Augustus 2021, 20 Weken, 36 uur per week</strong>.
@@ -44,7 +48,7 @@
     </article>
 
     <article id="break">
-      <p>Ik ben op zoek naar een <strong>digital agency</strong> met een <strong>ethische missie</strong>. Een missie zoals bedrijven <strong>verduurzamen</strong> of werken met de <strong>zorg sector</strong>.</p>
+      <p class="wide">Ik ben op zoek naar een <strong>digital agency</strong> met een <strong>ethische missie</strong>. Een missie zoals bedrijven <strong>verduurzamen</strong> of werken met de <strong>zorg sector</strong>.</p>
     </article>
 
     <article id="strengths">
@@ -71,10 +75,12 @@
       <h2>Portfolio</h2>
       <article class="project digicampus">
         <img src="" alt="" class="projectThumb">
-        <h3>Memomi</h3>
-        <p class="side">(DigiCampus)</p>
-        <p class="wide">Ondersteunende app voor mensen met Fronto-temporale dementie en hun mantelzorgers.</p>
-        <a href="" class="more">Meer lezen...</a>
+        <section>
+          <h3>Memomi</h3>
+          <p class="side">(DigiCampus)</p>
+          <p class="projectDesc">Ondersteunende app voor mensen met Fronto-temporale dementie en hun mantelzorgers.</p>
+          <a href="" class="more">Meer lezen...</a>
+        </section>
         <aside class="gradeContainer">
           <p class="gradeLabel">Cijfer:</p>
           <p class="grade">9,0</p>
@@ -83,10 +89,12 @@
 
       <article class="project mimic">
         <img src="" alt="" class="projectThumb">
-        <h3>Mijn Mooie Momentjes</h3>
-        <p class="side">(Mimic)</p>
-        <p class="wide">Een marketing campagne die Mimic gaat helpen meer babyvoeding cups te verkopen.</p>
-        <a href="" class="more">Meer lezen...</a>
+        <section>
+          <h3>Mijn Mooie Momentjes</h3>
+          <p class="side">(Mimic)</p>
+          <p class="projectDesc">Een marketing campagne die Mimic gaat helpen meer babyvoeding cups te verkopen.</p>
+          <a href="" class="more">Meer lezen...</a>
+        </section>
         <aside class="gradeContainer">
           <p class="gradeLabel">Cijfer:</p>
           <p class="grade">8,9</p>
@@ -95,10 +103,12 @@
 
       <article class="project npi">
         <img src="" alt="" class="projectThumb">
-        <h3>Modulo</h3>
-        <p class="side">(Nederlands Paramedisch Instituut)</p>
-        <p class="wide">Een app die ondersteuning biedt aan patiënten met Claudicatio Intermittens (etalage benen).</p>
-        <a href="" class="more">Meer lezen...</a>
+        <section>
+          <h3>Modulo</h3>
+          <p class="side">(Nederlands Paramedisch Instituut)</p>
+          <p class="projectDesc">Een app die ondersteuning biedt aan patiënten met Claudicatio Intermittens (etalage benen).</p>
+          <a href="" class="more">Meer lezen...</a>
+        </section>
         <aside class="gradeContainer">
           <p class="gradeLabel">Cijfer:</p>
           <p class="grade">9,7</p>
@@ -107,10 +117,12 @@
 
       <article class="project spacex">
         <img src="" alt="" class="projectThumb">
-        <h3>SpaceX</h3>
-        <p class="side">(Javascript opdrachten)</p>
-        <p class="wide">Een website met informatie voor de reizigers van het Space X ruimteschip naar Mars.</p>
-        <a href="" class="more">Meer lezen...</a>
+        <section>
+          <h3>SpaceX</h3>
+          <p class="side">(Javascript opdrachten)</p>
+          <p class="projectDesc">Een website met informatie voor de reizigers van het Space X ruimteschip naar Mars.</p>
+          <a href="" class="more">Meer lezen...</a>
+        </section>
         <aside class="gradeContainer">
           <p class="gradeLabel">Cijfer:</p>
           <p class="grade">9,0</p>
@@ -124,57 +136,57 @@
 
       </p>
       <aside>
-        <p class="wide">Meer over mijn leven zie je op Instagram!</p>
-        <a href="" class="socialBtn">
+        <a href="https://www.instagram.com/lucasjup" class="socialBtn">
           <img src="" alt="" class="instaIcon">
           @lucasjup
         </a>
+        <a href="https://www.linkedin.com/in/luc-uppenkamp/" class="socialBtn">
+          <img src="img/icons/" alt="" class="Icon">
+          /luc-uppenkamp
+        </a>
       </aside>
+    </article>
+
+    <article id="stage">
+      <h2>Stage eisen</h2>
+      <p>
+        Voor mijn opleiding is het belangrijk dat het bedrijf aan <strong>een aantal eisen</strong> voldoet. Kort samengevat komt het neer op:
+      </p>
+      <ul>
+        <li>
+          Het bedrijf waar ik stage ga lopen moet minimaal <strong>4 mensen in dienst</strong> hebben, waarvan minimaal <strong>één op HBO niveau</strong>.
+        </li>
+        <li>
+          Het bedrijf moet zich bezig houden met “CMD activiteiten”. Dit houdt in grote lijnen in: <strong>concept ontwikkeling</strong> en <strong>UI design</strong>.
+        </li>
+        <li>
+          Er moet de mogelijkheid zijn om aandacht te richten op minimaal <strong>3 competenties</strong>. De 3 dik gedrukte opties hebben mijn voorkeur, meer is altijd goed! Dit zijn de competenties:
+          <ul>
+            <li>Onderzoeken, vertalen en definiëren</li>
+            <li><strong>Conceptualiseren</strong></li>
+            <li><strong>Visualiseren en prototypes maken</strong></li>
+            <li>Evalueren en valideren</li>
+            <li>Plannen en samenwerken</li>
+            <li><strong>Reflecteren</strong></li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+
+    <article id="contact">
+      <h2>Contact opnemen</h2>
+      <p class="wide">Ben jij mijn toekomstige stage bedrijf?</p>
+      <a href="mailto:lucuppenkamp@student.hhs.nl" class="socialBtn">
+        <img src="img/icons/" alt="" class="Icon">
+        lucuppenkamp@student.hhs.nl
+      </a>
     </article>
   </main>
 
-  <article id="stage">
-    <h2>Stage eisen vanuit de opleiding</h2>
-    <p>
-      Voor mijn opleiding is het belangrijk dat het bedrijf aan <strong>een aantal eisen</strong> voldoet. Kort samengevat komt het neer op:
-    </p>
-    <ul>
-      <li>
-        Het bedrijf waar ik stage ga lopen moet minimaal <strong>4 mensen in dienst</strong> hebben, waarvan minimaal <strong>één op HBO niveau</strong>.
-      </li>
-      <li>
-        Het bedrijf moet zich bezig houden met “CMD activiteiten”. Dit houdt in grote lijnen in: <strong>concept ontwikkeling</strong> en <strong>UI design</strong>.
-      </li>
-      <li>
-        Er moet de mogelijkheid zijn om aandacht te richten op minimaal <strong>3 competenties</strong>. De 3 dik gedrukte opties hebben mijn voorkeur, meer is altijd goed! Dit zijn de competenties:
-        <ul>
-          <li>Onderzoeken, vertalen en definiëren</li>
-          <li><strong>Conceptualiseren</strong></li>
-          <li><strong>Visualiseren en prototypes maken</strong></li>
-          <li>Evalueren en valideren</li>
-          <li>Plannen en samenwerken</li>
-          <li><strong>Reflecteren</strong></li>
-        </ul>
-      </li>
-    </ul>
-  </article>
-
-  <article id="contact">
-    <h2>Ben jij mijn toekomstige stage bedrijf? Laat het me weten!</h2>
-    <a href="mailto:lucuppenkamp@student.hhs.nl" class="socialBtn">
-      <img src="" alt="" class="Icon">
-      lucuppenkamp@student.hhs.nl
-    </a>
-    <a href="" class="socialBtn">
-      <img src="" alt="" class="Icon">
-      /lucuppenkamp
-    </a>
-  </article>
-
   <footer>
-    <a href="#home" class="toTop">
-      <img src="" alt="">
-      Terug naar boven
+    <a href="#head" class="toTop">
+      <img src="img/icons/" alt="">
+      <p><strong>Terug naar boven</strong></p>
     </a>
     <p class="copyright">Copyright Luc Uppenkamp</p>
   </footer>

@@ -1,0 +1,213 @@
+/*
+====================
+  Global styles
+====================
+*/
+
+main {
+  display: grid;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  margin-top: 0;
+  padding: 18px 2.5%;
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  position: fixed;
+}
+
+article {
+  width: 100%;
+}
+
+ul {
+  width: 90%;
+  margin: auto 0;
+}
+
+/*
+====================
+  Typography
+====================
+*/
+
+h1, h2, h3, p, li, a {
+  font-family: jaf-domus,sans-serif;
+  font-style: normal;
+}
+
+h1, h2, h3, a, strong, .grade {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 42px;
+  width: 95%;
+  margin: 70px auto 18px auto;
+}
+
+h3, .grade {
+  font-size: 24px;
+}
+
+h3 {
+    display: inline;
+}
+
+p, li {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.wide {
+  width: 95%;
+  margin: 18px auto;
+}
+
+.side {
+  display: inline;
+}
+
+.copyright {
+  text-align: center;
+  margin: 24px 0;
+}
+
+/*
+====================
+  Components
+====================
+
+
+--------------------
+  articles
+--------------------
+*/
+
+#home {
+
+}
+
+.homePortrait {
+  padding-top: 60px;
+  min-height: 250px;
+}
+
+#break {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio {
+
+}
+
+#about {
+
+}
+
+#stage {
+
+}
+
+#contact {
+
+}
+
+/*
+--------------------
+  Content
+--------------------
+*/
+
+.project {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.digicampus {background-color: #A0C999;}
+.mimic {background-color: #CBE2DA;}
+.npi {background-color: #623489;}
+.spacex {background-color: #000000;}
+
+/* Project card */
+
+.project {
+  padding: 10% 0;
+}
+
+.project > section {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.projectDesc {
+  margin: 18px 0;
+}
+
+.project > img {
+  min-height: 200px;
+  margin-bottom: 18px;
+}
+
+.gradeContainer {
+  position: absolute;
+  margin-left: 80%;
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradeLabel {
+  display: none;
+}
+
+.grade {
+  vertical-align:
+}
+
+/*
+--------------------
+  Buttons
+--------------------
+*/
+
+.socialBtn {
+  text-decoration: underline;
+}
+
+.socialBtn > img {
+  width: 48px;
+}
+
+.socialBtn:hover, .socialBtn:focus {
+
+}
+
+.toTop {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
